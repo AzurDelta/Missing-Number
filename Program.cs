@@ -1,3 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿
+using Missing_Number;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine(MissingNumber.MissingNumberFinder([3,0,1]));
+Console.WriteLine(MissingNumber.MissingNumberFinder([9,6,4,2,3,5,7,0,1]));
